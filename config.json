@@ -1,0 +1,17 @@
+{
+  "name": {
+    "prefix": "ticket",
+    "separator": "-",
+    "username": true,
+    "id": {
+      "length": 5,
+      "caps": true,
+      "nums": true
+    }
+  },
+  "permissions": {
+    "roles": [
+      ""
+    ]
+  }
+}
