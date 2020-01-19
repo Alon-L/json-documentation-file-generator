@@ -39,7 +39,7 @@ class GenerateMd {
       this.addHeader(`${this.fileName} > ${key}`);
       this.addDummyText();
 
-      const keyScope = { key: this.json[key] };
+      const keyScope = { [key]: this.json[key] };
       this.addLine('\`\`\`json');
       this.addLine(JSON.stringify(keyScope, null, 2));
       this.addLine('\`\`\`');

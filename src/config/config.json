@@ -10,8 +10,6 @@
     }
   },
   "permissions": {
-    "roles": [
-      ""
-    ]
+    "roles": []
   }
 }
